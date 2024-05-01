@@ -1,0 +1,58 @@
+.state{
+  width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 20px auto 0px auto;
+  /* border: 1px solid red; */
+}
+.container-sec{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 20px auto 0px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+    box-shadow: 0px 0px 5px 0px grey;
+    
+  }
+  .over-pad{
+    /* border: 1px solid red; */
+    padding: 0px 20px 20px 20px;
+  }
+  
+  .btn{
+    display: flex;
+    gap: 10px;
+  }
+  .heading{
+    padding-top: 10px;
+    /* border: 1px solid red; */
+  }
+  .heading >p {
+    /* border: 1px solid red; */
+  }
+  
+  
+  /* User css file */
+
+  .nav-style{
+    border: 1px solid black;
+    width: 95%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title{
+    margin-left: 20px;
+  }
+  .left-title{
+    margin-right: 20px;
+  }
